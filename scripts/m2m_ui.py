@@ -127,6 +127,11 @@ class Toprow:
                         elem_id=f"{id_part}_interrupt",
                         elem_classes="generate-box-interrupt",
                     )
+                    self.interrupting = gr.Button(
+                        "Interrupting",
+                        elem_id=f"{id_part}_interrupting",
+                        elem_classes="generate-box-interrupt",
+                    )
                     self.skip = gr.Button(
                         "Skip",
                         elem_id=f"{id_part}_skip",

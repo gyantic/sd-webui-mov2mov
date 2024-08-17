@@ -1,4 +1,4 @@
-#mov2mov_interrupt, #mov2mov_skip {
+#mov2mov_interrupt, #mov2mov_interrupting, #mov2mov_skip {
     position: absolute;
     width: 50%;
     height: 100%;
